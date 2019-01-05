@@ -33,7 +33,7 @@ document.onkeyup = function(event) {
     
       document.getElementById("losses").innerHTML = losses++;
       console.log("You lost!");
-      alert("You lost!");
+      alert("You lost :(");
       guessesRemaining = 10;
       guessedLetters = [];
       document.getElementById("guessedLetters").innerHTML = guessedLetters;
